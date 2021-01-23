@@ -6,7 +6,8 @@
 
 ```bash
 #Create cloud9 environment via aws.
-#Check your python version python --version 
+#Check your python version 
+python --version 
 git clone https://github.com/srdrcn/cdk-infra-ecs.git
 cd cdk-infra-ecs
 virtualenv --python=/usr/bin/python3.7 venv
