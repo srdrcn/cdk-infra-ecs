@@ -1,0 +1,7 @@
+install aws_cdk.aws_iam
+install aws_cdk.aws_sqs
+install aws_cdk.aws_sns
+install aws_cdk.aws_sns_subscriptions
+install aws_cdk.aws.ec2
+install aws_cdk.aws.ecs
+install aws_cdk.aws.ecs.patterns
