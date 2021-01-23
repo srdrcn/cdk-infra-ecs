@@ -16,8 +16,7 @@ class SampleTwoServiceStack(core.Stack):
         cluster = ecs.Cluster(self, "ServiceCluster", vpc=vpc)
         cluster.add_default_cloud_map_namespace(name="service.local")
 
-        # two docker containers
-        # two ECS services/tasks
+
 
         frontend_asset = DockerImageAsset(
             self, "frontend", directory="./frontend", file="Dockerfile"
